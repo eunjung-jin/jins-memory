@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "가족 여행 기록",
+    "slug": "family-trip-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "familytrip",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "여행 사진을 자동으로 분류하기 위해 사진첩에 접근합니다."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "여행 사진을 자동으로 분류하기 위해 사진첩에 접근합니다.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "",
+      "supabaseAnonKey": ""
+    }
+  }
+}

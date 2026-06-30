@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-06-30T12:13:37.079Z",
+    "errorType": "unknown",
+    "category": "unknown",
+    "severity": "low",
+    "agentId": null,
+    "agentType": null,
+    "sessionId": "76138097-711b-4df5-b9b5-67940d55ad7e",
+    "message": "",
+    "parseStatus": "partial",
+    "parseWarnings": "StopFailure payload missing useful fields (keys: session_id,transcript_path,cwd,effort,hook_event_name,error,last_assistant_message)"
+  },
+  {
+    "timestamp": "2026-06-30T12:55:10.232Z",
+    "errorType": "unknown",
+    "category": "unknown",
+    "severity": "low",
+    "agentId": null,
+    "agentType": null,
+    "sessionId": "76138097-711b-4df5-b9b5-67940d55ad7e",
+    "message": "",
+    "parseStatus": "partial",
+    "parseWarnings": "StopFailure payload missing useful fields (keys: session_id,transcript_path,cwd,effort,hook_event_name,error,last_assistant_message)"
+  }
+]
