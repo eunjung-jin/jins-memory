@@ -28,8 +28,8 @@
       ]
     ],
     "extra": {
-      "supabaseUrl": "",
-      "supabaseAnonKey": ""
+      "supabaseUrl": "https://bupysmlyfmcxtsylhavy.supabase.co",
+      "supabaseAnonKey": "sb_publishable_tFbXxufFw88pIPO3VWHb4w_iyYUqGUe"
     }
   }
 }

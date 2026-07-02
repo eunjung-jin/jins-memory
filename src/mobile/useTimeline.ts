@@ -1,6 +1,6 @@
 // 타임라인 데이터 훅 — Supabase에서 여행 로드 + 커버 URI 해석
 import { useCallback, useEffect, useState } from 'react';
-import * as MediaLibrary from 'expo-media-library';
+import * as MediaLibrary from 'expo-media-library/legacy'; // SDK 57: legacy 서브패스
 import type { TripSummary } from '../ui/timeline-view-model.ts';
 import { getSupabase } from './supabase.ts';
 

@@ -1,6 +1,8 @@
 // 기기 사진첩 스캔 → PhotoInput[] (PoC 검증 로직의 실사용 버전)
 // 근거: poc/device-photo-exif, docs/poc-device-photo-exif.md
-import * as MediaLibrary from 'expo-media-library';
+// SDK 57: expo-media-library에서 직접 부른 legacy 함수는 런타임 에러.
+// legacy 서브패스로 동일 API 유지 (향후 Query/Asset 클래스 API로 마이그레이션 가능).
+import * as MediaLibrary from 'expo-media-library/legacy';
 import type { PhotoInput } from '../persistence/port.ts';
 
 export interface ScanProgress {
